@@ -1,0 +1,21 @@
+{
+    "success": true,
+    "result": [
+        {
+            "title": "首页",
+            "selectedTab": "Home"
+        },
+        {
+            "title": "行程",
+            "selectedTab": "Home"
+        },
+        {
+            "title": "定制",
+            "selectedTab": "Home"
+        },
+        {
+            "title": "我的",
+            "selectedTab": "Home"
+        }
+    ]
+}
