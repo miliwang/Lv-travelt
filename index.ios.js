@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import TabNavigator from "react-native-tab-navigator";
 
-import TabNavigatorData from "./src/assets/json/tabnavData.json";
+import TabNavigatorData from "./src/assets/json/tabNavigator.json";
 import Home from "./src/Home";
 export default class rn0525 extends Component {
   constructor(props){
@@ -35,7 +35,7 @@ export default class rn0525 extends Component {
           icon = require("./src/assets/images/2x/tab-route@2x.png");
           break;
         case 3:
-          icon = require("./src/assets/images/2x/tab-crown@2x.png");
+          icon = require("./src/assets/images/2x/tab-tailor-made@2x.png");
           break;
         case 4:
           icon = require("./src/assets/images/2x/tab-travels@2x.png");
@@ -44,16 +44,16 @@ export default class rn0525 extends Component {
           icon = require("./src/assets/images/2x/tab-mine@2x.png");
           break;
         case 6:
-          icon = require("./src/assets/images/2x/tab-select-home@2x.png");
+          icon = require("./src/assets/images/2x/tab-home-selected@2x.png");
           break;
         case 7:
-          // icon = require("./src/assets/images/2x/tab-select-route@2x.png");
+          icon = require("./src/assets/images/2x/tab-route-selected@2x.png");
           break;
         case 8:
-          // icon = require("./src/assets/images/2x/tab-select-crown@2x.png");
+          icon = require("./src/assets/images/2x/tab-tailor-made-sel@2x.png");
           break;
         case 9:
-          // icon = require("./src/assets/images/2x/tab-select-travels@2x.png");
+          icon = require("./src/assets/images/2x/tab-travels-selected@2x.png");
           break;
         case 10:
           // icon = require("./src/assets/images/2x/tab-select-mine@2x.png");

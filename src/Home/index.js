@@ -57,7 +57,7 @@ export default class rn0525 extends Component {
               <Text style={styles['nav-row-text']}>出境游</Text>
             </View>
             <View style={[styles.navRow,styles.navRow3]}>
-              <Image source={require("../assets/images/2x/nav-house@2x.png")} />
+              <Image source={require("../assets/images/2x/nav-hotel@2x.png")} />
               <View style={styles['nav-row-text-box']}>
                 <Text style={[styles['nav-row-text'],styles.navBlue, {marginBottom: 4}]}>火车票</Text>
                 <Text style={[styles['nav-row-text'],styles.navBlue,{ marginBottom: 4}]}>特价火车票</Text>

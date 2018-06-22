@@ -2,20 +2,29 @@
     "success": true,
     "result": [
         {
+            "id": 1,
             "title": "首页",
-            "selectedTab": "Home"
+            "selected": "home"
         },
         {
+            "id": 2,
             "title": "行程",
-            "selectedTab": "Home"
+            "selected": "route"
         },
         {
+            "id": 3,
             "title": "定制",
-            "selectedTab": "Home"
+            "selected": "crown"
         },
         {
+            "id": 4,
+            "title": "游记",
+            "selected": "travels"
+        },
+        {
+            "id": 5,
             "title": "我的",
-            "selectedTab": "Home"
+            "selected": "mine"
         }
     ]
 }
