@@ -4,17 +4,24 @@ const styles = StyleSheet.create({
         backgroundColor: "#ececec",
         width: "100%",
         height: "100%",
+        marginTop: 20,
     },
     topBar: {
         width: "100%",
         height: 50,
-        marginTop: 20,
         position: "relative"
     },
     "top-bar-bg": {
-        position: "absolute"
+        width: "100%",
+        position: "absolute",
+        top: 0,
+        left: 0
     },
     "tob-bar-con": {
-        width: 50
+        width: "100%",
+        flexDirection: "row",
+        position: "absolute",
+        top: 0,
+        left: 0
     }
 });
