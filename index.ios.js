@@ -31,10 +31,12 @@ export default class rn0525 extends Component {
             titleStyle={styles.tabText}
             selectedTitleStyle={styles.selectedTabText}
             renderIcon={() => 
-              <Image style={styles.icon} source={require("./images/tabbar_home.png")} />
+              // <Image style={styles.icon} source={require(".src/assets/images/tabbar_home.png")} />
+              <Image style={styles.icon}/>
             }
             renderSelectedIcon={() => 
-            <Image style={styles.icon} source={require("./images/tabbar-home-selected.png")}/>
+            // <Image style={styles.icon} source={require(".src/assets/images/tabbar-home-selected.png")}/>
+            <Image style={styles.icon}/>
             }
             onPress={() => 
               this.setState({

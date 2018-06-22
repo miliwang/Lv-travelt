@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import {View, Text} from "react-native";
-import { TabNavigator } from "react-navigation";
+import styles from "../assets/style/home";
 
-export default class rn0525 extends Component {
+export default class Home extends Component {
   render() {
     return (
-      <View>
+      <View style={styles.container}>
           <Text>首页</Text>
       </View>
     );
