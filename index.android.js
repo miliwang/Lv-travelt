@@ -9,23 +9,46 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
+  Image,
   View
 } from 'react-native';
+import Home from "./src/Home"
+import TabNavigator from "react-native-tab-navigator";
 
 export default class rn0525 extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      selectedTab:"Home"
+    };
+  }
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+      <View>
+        <Home />
+        <TabNavigator>
+          <TabNavigator.Item 
+            selected={this.state.selectedTab === "Home"}
+            title="首页"
+            titleStyle={styles.tabText}
+            selectedTitleStyle={styles.selectedTabText}
+            renderIcon={() => 
+              <Image style={styles.icon} />
+            }
+            renderSelectedIcon={() => 
+            <Image style={styles.icon}/>
+            }
+            onPress={() => 
+              this.setState({
+                selectedTab: 'Home'
+              })
+            }
+          >
+          <View>
+            <Home />
+          </View>
+          </TabNavigator.Item>
+        </TabNavigator>
       </View>
     );
   }
