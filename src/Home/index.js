@@ -47,8 +47,8 @@ export default class rn0525 extends Component {
               <View style={styles['nav-row-text-box']}>
                 <Text style={[styles['nav-row-text'],{marginBottom: 4}]}>自由行</Text>
                 <Text style={[styles['nav-row-text'],{marginBottom: 4,borderTopRightRadius: 5, overflow: "hidden"}]}>跟团游</Text>
-                <Text style={[styles['nav-row-text'],{marginTop: 4}]}>自助游</Text> 
-                <Text style={[styles['nav-row-text'],{marginTop: 4}]}>自助游</Text> 
+                <Text style={[styles['nav-row-text'],{marginTop: 3}]}>自助游</Text> 
+                <Text style={[styles['nav-row-text'],{marginTop: 3}]}>自助游</Text> 
               </View>
             </View>
             <View style={[styles.navRow,styles.navRow2]}>
@@ -61,8 +61,8 @@ export default class rn0525 extends Component {
               <View style={styles['nav-row-text-box']}>
                 <Text style={[styles['nav-row-text'],styles.navBlue, {marginBottom: 4}]}>火车票</Text>
                 <Text style={[styles['nav-row-text'],styles.navBlue,{ marginBottom: 4}]}>特价火车票</Text>
-                <Text style={[styles['nav-row-text'],styles.navBlue,{marginTop: 4}]}>机票</Text> 
-                <Text style={[styles['nav-row-text'],styles.navBlue,{marginTop: 4,borderBottomRightRadius: 5, overflow: "hidden"}]}>特价机票</Text> 
+                <Text style={[styles['nav-row-text'],styles.navBlue,{marginTop: 3}]}>机票</Text> 
+                <Text style={[styles['nav-row-text'],styles.navBlue,{marginTop: 3},{borderBottomRightRadius: 5, overflow: "hidden"}]}>特价机票</Text> 
               </View>
             </View>
           </View>
