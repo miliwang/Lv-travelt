@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { TabNavigator } from "react-navigation";
 import styles from "../assets/style/home.js"
-export default class rn0525 extends Component {
+export default class Home extends Component {
   constructor(){
     super();
     this.state = {
@@ -17,9 +17,7 @@ export default class rn0525 extends Component {
     }
   }
   render() {
-    console.log(styles);
     return (
-     
       <View style={styles.container}>
          <ScrollView>
            <View style={styles.topBar}>

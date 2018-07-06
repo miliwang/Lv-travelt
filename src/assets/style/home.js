@@ -76,8 +76,7 @@ const styles = StyleSheet.create({
         marginBottom: 6
     },
     main:{
-        width: "100%",
-        paddingBottom: 40
+        width: "100%"
     },
     conHeader: {
         width: "100%",
